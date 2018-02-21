@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Prompto validation">
+<test name="login page validation">
+<parameter name="username" value="juan.mendoza+test@ksquareinc.com"/>
+<parameter name="password" value="Password"/>
+<classes>
+<!--<class name= "test.java.com.infolob.container.test.LoginPageTest"/>    -->
+
+ 
+<class name= "test.java.com.infolob.container.test.LandingPageTest"/>
+</classes>
+</test>
+</suite>
