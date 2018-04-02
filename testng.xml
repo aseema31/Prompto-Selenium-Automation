@@ -4,7 +4,9 @@
 <suite name="Prompto validation">
 <test name="login page validation">
 <parameter name="username" value="juan.mendoza+test@ksquareinc.com"/>
-<parameter name="password" value="Password"/>
+<parameter name="password" value="Password_01"/>
+<parameter name="driverPath" value="C:\Girish_Demo\chromedriver.exe"/>
+<parameter name="excelPath" value="C:\Girish_Demo\PromptoTestData.xlsx"/>
 <classes>
 <!--<class name= "test.java.com.infolob.container.test.LoginPageTest"/>    -->
 

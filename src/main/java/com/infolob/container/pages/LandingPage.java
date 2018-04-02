@@ -166,4 +166,10 @@ public class LandingPage extends IPage{
 //		System.out.println(userInfoMenuItems.size());
 		return super.getDriver().findElement(By.cssSelector(Constants.DIV_USER_INFORMATION)).isDisplayed();
 	}
+	
+	public void createNewPlan()
+	{
+	WebElement plans = (WebElement) (getLeftMenuItems().get(1));
+	plans.click();
+	}
 }
